@@ -1,8 +1,10 @@
 import "./Card.scss"
 
-const Card = () => {
+const Card = (props) => {
+  const  { title, image, desc } = props
+  
   return (
-    <div>card
+    <div className="cards">
       
     </div>
   )
