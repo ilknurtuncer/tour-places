@@ -1,11 +1,11 @@
 import "./Main.scss"
 import { data } from "../../helper/data"
-import Card from "./Card"
+import Card from "../card/Card"
 
 const Main = () => {
   return (
     <div className="card-container">
-        {data.map((item)=> <Card {...item} key={id}/>)}
+        {data.map((item)=> <Card {...item}/>)}
       
     </div>
   )
